@@ -57,7 +57,12 @@ a{
        padding-left: 30px;
        font-family: var(--fonte2);
        font-size: 1.1em;
+        padding-bottom: 2em;
 
+    }
+
+    section > p{
+     padding-bottom: 2em;
     }
 
 
@@ -71,13 +76,34 @@ a{
 
         background-color: #0A0A0A;
         color: white;
+      box-shadow: inset 0px 0px 20px black;
+       background-attachment: fixed;
+       
 
     }
 
     section.imagem > p {
         display: inline-block;
         padding: 5px;
-        background-color: #1A1A1A ;
+        background-color: #1a1a1a6a ;
+        text-shadow: 1px 1px 2px black;
+        
+       
+
+    }
+
+    section#img01{
+
+        background-image: url(../imagem/simbolo\ ferrari.jpg);
+        background-position: center ;
+        background-size: cover;
+    }
+
+    section#img02{
+
+        background-image: url(../imagem/ferrari\ 812.jpg);
+        background-position: center;
+        background-size: cover;
 
     }
 
