@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 
+            Arial, Helvetica, sans-serif;
+        }
+
+        table{
+             border-collapse: collapse ;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td{
+            border: 1px solid gray;
+            padding: 10px;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Tabela de Carros Esportivos
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Marca</th>
+                <th scope="col">Carro</th>
+                <th colspan="3" scope="col">Motor</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Lamborghini</th>
+                <td>Revuelto</td>
+                <td> V12 6.5 L + elétrico</td>
+            </tr>
+
+            <tr>
+                <td>Aventador SVJ</td>
+                <td> V12 6.5 L</td>
+                </tr>
+
+                <tr>
+                    <td>Huracán STO</td>
+                    <td> V10 5.2 L</td>
+
+
+                </tr>
+
+                <tr>
+                    <th rowspan="3" scope="rowgroup"> Ferrari</th>
+                    <td>812 GTS</td>
+                    <td> V12 6.5 L</td>
+                  
+                </tr>
+                <tr>
+                    <td>SF90 Stradale</td>
+                    <td>V8 4.0 L + elétrico</td>
+
+
+                </tr>
+
+                <tr>
+                    <td>488 Pista</td>
+                    <td>V8 3.9 L</td>
+
+
+                </tr>
+            
+
+        </tbody>
+    </table>
+</body>
+</html>
