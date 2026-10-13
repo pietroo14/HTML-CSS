@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+             <legend>Período</legend>
+            <input type="radio" name="periodo" id="ipdtar" value="T"> <label for="ipdtar">Tarde</label> <br>
+            <input type="radio" name="periodo" id="ipdnoi" checked value="N"> <label for="ipdnoi">Noite</label>
+        </fieldset>
+        <fieldset>
+            <legend>Carros favoritos</legend>
+            <input type="checkbox" name="carsvj" id="iSVJ" checked> <label for="iSVJ">Aventador SVJ</label> <br>
+            <input type="checkbox" name="car812" id="i812"> <label for="i812">Ferrari 812 GTS</label> <br>
+            <input type="checkbox" name="carGT3RS" id="iGT3RS"><label for="iGT3RS"> Porsche GT3RS</label> <br>
+            <input type="checkbox" name="carM4" id="iM4"> <label for="iM4">BMW M4</label> <br>
+        </fieldset>
+
+
+
+    <p>
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Limpar">
+    </p>
+    </form>
+    
+</body>
+</html>
