@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+   <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icar">Carro</label>
+            <select name="carro" id="icar">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Lamborghini">
+                    <option value="SVJ">Aventador SVJ</option>
+                    <option value="Rev">Revuelto</option>
+                    <option value="Hur">Huracan</option>
+                </optgroup>
+
+                <optgroup label="Ferrari">
+                    <option value="812">812 Superfast</option>
+                    <option value="SF90">SF90 Stradale</option>
+                    <option value="488">488 Pista</option>
+                </optgroup>
+            </select>
+
+        </p>
+        
+        <p>
+            <label for="icar">carro</label>
+            <input type="text" name="carro" id="icar" list="lstcar">
+            <datalist id="lstcar">
+                 <option>Aventador SVJ</option>
+                    <option>Revuelto</option>
+                    <option>Huracan</option>
+            </datalist>
+
+        </p>
+
+        <p>
+             <label for="imsg">Mensagem</label><br>
+             <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        
+
+
+
+
+        <p>
+    
+           <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+</p>
+</form>
+</body>
+</html>
