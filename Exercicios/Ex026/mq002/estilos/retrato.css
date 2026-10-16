@@ -1,3 +1,11 @@
 @charset "UTF-8";
 
 /* Aparelho em pé (portrait) */
+
+
+body{
+    background-image: url(../imagem/ferrari\ 812.jpg);
+    background-size: 720px 1280px;
+    background-position: center;
+    
+}
